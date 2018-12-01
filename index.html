@@ -1,0 +1,148 @@
+<script src="js/aframe.min.js"></script>
+<script src="js/aframe-ar.js"> </script>
+
+<body style='margin : 0px; overflow: hidden;'>
+  <a-scene embedded arjs='sourceType: webcam;'>
+  
+    <!-- BLACK KING - REI PRETO -->
+    <a-marker type='pattern' url='patterns/0.patt'>
+      <a-box src="img/black-piece.png" position='0 0.5 0'></a-box>
+      <a-sphere src="img/black-piece.png" position='0 1.5 0' scale="0.4 0.4 0.4"></a-sphere>
+      <a-box src="img/black-piece.png" position='0 2 0' scale="0.4 0.15 0.4" rotation="0 45 0"></a-box>
+    </a-marker>
+    
+    <!-- WHITE KING - REI BRANCO -->
+    <a-marker type='pattern' url='patterns/1.patt'>
+      <a-box src="img/white-piece.png" position='0 0.5 0'></a-box>
+      <a-sphere src="img/white-piece.png" position='0 1.5 0' scale="0.4 0.4 0.4"></a-sphere>
+      <a-box src="img/white-piece.png" position='0 2 0' scale="0.4 0.15 0.4" rotation="0 45 0"></a-box>
+    </a-marker>
+    
+    <!-- BLACK QUEEN - RAINHA PRETA -->
+    <a-marker type='pattern' url='patterns/2.patt'>
+      <a-box src="img/black-piece.png" position='0 0.5 0'></a-box>
+      <a-sphere src="img/black-piece.png" position='0 1.5 0' scale="0.4 0.4 0.4"></a-sphere>
+    </a-marker>
+    
+    <!-- WHITE QUEEN - RAINHA BRANCA -->
+    <a-marker type='pattern' url='patterns/3.patt'>
+      <a-box src="img/white-piece.png" position='0 0.5 0'></a-box>
+      <a-sphere src="img/white-piece.png" position='0 1.5 0' scale="0.4 0.4 0.4"></a-sphere>
+    </a-marker>
+    
+    <!-- BLACK BISHOP - BISPO PRETO -->
+    <a-marker type='pattern' url='patterns/4.patt'>
+      <a-cone src="img/black-piece.png" position='0 0.5 0' scale="0.4 1.3 0.4"></a-cone>
+      <a-sphere src="img/black-piece.png" position='0 1.3 0' scale="0.2 0.2 0.2"></a-sphere>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/5.patt'>
+      <a-cone src="img/black-piece.png" position='0 0.5 0' scale="0.4 1.3 0.4"></a-cone>
+      <a-sphere src="img/black-piece.png" position='0 1.3 0' scale="0.2 0.2 0.2"></a-sphere>
+    </a-marker>
+    
+    <!-- WHITE BISHOP - BISPO BRANCO -->
+    <a-marker type='pattern' url='patterns/6.patt'>
+      <a-cone src="img/white-piece.png" position='0 0.5 0' scale="0.4 1.3 0.4"></a-cone>
+      <a-sphere src="img/white-piece.png" position='0 1.3 0' scale="0.2 0.2 0.2"></a-sphere>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/7.patt'>
+      <a-cone src="img/white-piece.png" position='0 0.5 0' scale="0.4 1.3 0.4"></a-cone>
+      <a-sphere src="img/white-piece.png" position='0 1.3 0' scale="0.2 0.2 0.2"></a-sphere>
+    </a-marker>
+    
+    <!-- BLACK KNIGHT - CAVALO PRETO -->
+    <a-marker type='pattern' url='patterns/8.patt'>
+      <a-box src="img/black-piece.png" position='0 0.5 0.3' scale="1 1 0.4"></a-box>
+      <a-box src="img/black-piece.png" position='0.3 0.5 0' scale="0.4 1 1"></a-box>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/9.patt'>
+      <a-box src="img/black-piece.png" position='0 0.5 0.3' scale="1 1 0.4"></a-box>
+      <a-box src="img/black-piece.png" position='0.3 0.5 0' scale="0.4 1 1"></a-box>
+    </a-marker>
+    
+    <!-- WHITE KNIGHT - CAVALO BRANCO -->
+    <a-marker type='pattern' url='patterns/10.patt'>
+      <a-box src="img/white-piece.png" position='0 0.5 0.3' scale="1 1 0.4"></a-box>
+      <a-box src="img/white-piece.png" position='0.3 0.5 0' scale="0.4 1 1"></a-box>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/11.patt'>
+      <a-box src="img/white-piece.png" position='0 0.5 0.3' scale="1 1 0.4"></a-box>
+      <a-box src="img/white-piece.png" position='0.3 0.5 0' scale="0.4 1 1"></a-box>
+    </a-marker>
+    
+    <!-- BLACK ROOK - TORRE PRETA -->
+    <a-marker type='pattern' url='patterns/12.patt'>
+      <a-cylinder src="img/black-piece.png" position='0 0.5 0' scale="0.4 0.8 0.4"></a-cylinder>
+      <a-cylinder src="img/black-piece.png" position='0 1 0' scale="0.5 0.3 0.5"></a-cylinder>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/13.patt'>
+      <a-cylinder src="img/black-piece.png" position='0 0.5 0' scale="0.4 0.8 0.4"></a-cylinder>
+      <a-cylinder src="img/black-piece.png" position='0 1 0' scale="0.5 0.3 0.5"></a-cylinder>
+    </a-marker>
+    
+    <!-- WHITE ROOK - TORRE BRANCA -->
+    <a-marker type='pattern' url='patterns/14.patt'>
+      <a-cylinder src="img/white-piece.png" position='0 0.5 0' scale="0.4 0.8 0.4"></a-cylinder>
+      <a-cylinder src="img/white-piece.png" position='0 1 0' scale="0.5 0.3 0.5"></a-cylinder>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/15.patt'>
+      <a-cylinder src="img/white-piece.png" position='0 0.5 0' scale="0.4 0.8 0.4"></a-cylinder>
+      <a-cylinder src="img/white-piece.png" position='0 1 0' scale="0.5 0.3 0.5"></a-cylinder>
+    </a-marker>
+    
+    <!-- BLACK PAWN - PEÃO PRETO -->
+    <a-marker type='pattern' url='patterns/16.patt'>
+      <a-box src="img/black-piece.png" position='0 0 0' scale="0.5 0.5 0.5"></a-box>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/17.patt'>
+      <a-box src="img/black-piece.png" position='0 0 0' scale="0.5 0.5 0.5"></a-box>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/18.patt'>
+      <a-box src="img/black-piece.png" position='0 0 0' scale="0.5 0.5 0.5"></a-box>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/19.patt'>
+      <a-box src="img/black-piece.png" position='0 0 0' scale="0.5 0.5 0.5"></a-box>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/20.patt'>
+      <a-box src="img/black-piece.png" position='0 0 0' scale="0.5 0.5 0.5"></a-box>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/21.patt'>
+      <a-box src="img/black-piece.png" position='0 0 0' scale="0.5 0.5 0.5"></a-box>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/22.patt'>
+      <a-box src="img/black-piece.png" position='0 0 0' scale="0.5 0.5 0.5"></a-box>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/23.patt'>
+      <a-box src="img/black-piece.png" position='0 0 0' scale="0.5 0.5 0.5"></a-box>
+    </a-marker>
+    
+    <!-- WHITE PAWN - PEÃO BRANCO -->
+    <a-marker type='pattern' url='patterns/24.patt'>
+      <a-box src="img/white-piece.png" position='0 0 0' scale="0.5 0.5 0.5"></a-box>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/25.patt'>
+      <a-box src="img/white-piece.png" position='0 0 0' scale="0.5 0.5 0.5"></a-box>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/26.patt'>
+      <a-box src="img/white-piece.png" position='0 0 0' scale="0.5 0.5 0.5"></a-box>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/27.patt'>
+      <a-box src="img/white-piece.png" position='0 0 0' scale="0.5 0.5 0.5"></a-box>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/28.patt'>
+      <a-box src="img/white-piece.png" position='0 0 0' scale="0.5 0.5 0.5"></a-box>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/29.patt'>
+      <a-box src="img/white-piece.png" position='0 0 0' scale="0.5 0.5 0.5"></a-box>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/30.patt'>
+      <a-box src="img/white-piece.png" position='0 0 0' scale="0.5 0.5 0.5"></a-box>
+    </a-marker>
+    <a-marker type='pattern' url='patterns/31.patt'>
+      <a-box src="img/white-piece.png" position='0 0 0' scale="0.5 0.5 0.5"></a-box>
+    </a-marker>
+    
+    <a-entity camera></a-entity>
+    
+  </a-scene>
+</body>

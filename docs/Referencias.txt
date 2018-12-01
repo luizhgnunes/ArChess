@@ -1,0 +1,6 @@
+Documentação do JsArToolkit:
+https://aframe.io/blog/arjs/
+https://aframe.io/docs/0.8.0/introduction/
+
+Outras Referências:
+https://jeromeetienne.github.io/AR.js/
